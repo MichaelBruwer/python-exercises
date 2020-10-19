@@ -1,9 +1,9 @@
-def gargle(meh):
-  bleh = 0
 
-  for meh in meh:
-    if len(meh) > 1 and meh[0] == meh[-1]:
+def wordcrimes(words):
+  bleh = 0
+  for word in words:
+    if len(word) > 1 and word[0] == word[-1]:
       bleh += 1
   return bleh
 
-print(gargle(['alabama', 'toiletpaper', 'spartans', '404']))
+print(wordcrimes(['alabama', 'toiletpaper', 'spartans', '404']))

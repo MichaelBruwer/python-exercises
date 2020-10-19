@@ -1,4 +1,6 @@
-num = 5
+import random
+
+num = random.randint(0,10)
 
 input1 =int(input("num between 1-9"))
 
